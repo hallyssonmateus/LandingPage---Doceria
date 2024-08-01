@@ -1,0 +1,56 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.geds-logo {
+    font-size: 16px;
+    color: yellow;
+}
+
+.contain-header1 {
+    background-color: aqua;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+.bar-pesqui {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bar-design {
+    width: 100%;
+    border-radius: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.login-def {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.contain-header2 {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 60px;
+}
+.nav-contain {
+    display: flex;
+    align-items: center;
+}
+.nav-design {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
