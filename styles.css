@@ -1,4 +1,6 @@
-
+:root {
+    --corNav: #DEB887;
+}
 
 *{
     padding: 0;
@@ -11,7 +13,7 @@
 }
 
 .contain-header1 {
-    background-color: aqua;
+    background-color: var(--corNav);
     height: 60px;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -40,7 +42,7 @@
 .contain-header2 {
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: var(--corNav);
     height: 60px;
 }
 .nav-contain {
@@ -53,4 +55,12 @@
     justify-items: center;
     gap: 40px;
     list-style-type: none;
+}
+
+.banner-container {
+    height: 400px;
+    background-image: url("/imagens/bolo-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
