@@ -75,6 +75,29 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.container-bancont {
+    padding-left: 20px;
+}
+
+.container-bancont > h2 {
+    font-family: var(--font2);
+    font-weight: 700px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.container-bancont > button {
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
 }
 
 /* Estilização Nossos Produtos */
