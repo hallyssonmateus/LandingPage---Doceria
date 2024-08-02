@@ -43,9 +43,18 @@
 
 .login-def {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    gap: 30px;
+    align-items: center;
+    padding-left: 50%;
+}
+
+.login-def > h3 > a {
+    text-decoration: none;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.login-def > h3 > a:hover {
+    color: #40E0D0;
 }
 
 .contain-header2 {
@@ -242,7 +251,7 @@
 }
 
 .texto > h2 {
-    color: black;
+    color: whitesmoke;
     font-weight: 700;
 }
 
@@ -251,6 +260,7 @@
 }
 
 .photo-us {
+    /* background-image: url(/imagens/Sobre_nos\ Image.jpg); */
     background-color: blueviolet;
     background-repeat: no-repeat;
     background-size: cover;
