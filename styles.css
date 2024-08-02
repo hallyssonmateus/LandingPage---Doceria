@@ -1,9 +1,13 @@
 /* Importar fontes */
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
 
 :root {
     --font1: 'Satisfy', sans-serif;
+    --font2: "Edu AU VIC WA NT Hand", sans-serif;
     --corNav: #DEB887;
+    --cor1: #F4A460;
+    --cor2: #CD853F;
     --tamSectionBanner: 400px;
 }
 
@@ -213,9 +217,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 800px 10px 10px 10px;
+    border-radius: 800px 10px 10px 800px;
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 
 /* Estilização Onde Estamos */
@@ -232,15 +236,15 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
+    padding-top: 20px;
 }
 
 .img-intro {
-    background-image: url(/imagens/cupcake_top.png);
-    /* background-color: blueviolet; */
+    /* background-image: url(/imagens/cupcake_top.png); */
+    background-color: blueviolet;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    /* background-color: blueviolet; */
     border-radius: 8px;
     height: 75%;
     width: 100%;
@@ -253,4 +257,55 @@
     padding-top: 10px;
     display: flex;
     height: 10%;
+}
+
+/* Estilização Footer */
+
+.footer {
+    background-color: var(--cor2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    padding: 20px;
+}
+
+.container-footer {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.font-edit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font1);
+}
+
+.font-edit > a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.font-def {
+    color: white;
+    padding-bottom: 10px;
+    font-family: var(--font1);
+}
+
+.redes-container {
+    color: black;
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
