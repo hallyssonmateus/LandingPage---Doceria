@@ -66,6 +66,17 @@
     list-style-type: none;
 }
 
+.nav-design > li > a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--font1);
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-design > li > a:hover {
+    color: #40E0D0;
+}
+
 /* Estilização Banner */
 
 .banner-container {
@@ -98,6 +109,10 @@
     cursor: pointer;
     color: white;
     font-weight: 700;
+}
+.container-bancont > button:hover {
+    background-color: black;
+    color: #40E0D0;
 }
 
 /* Estilização Nossos Produtos */
@@ -284,7 +299,6 @@
 
 /* Estilização Mais Vendidos */
 .more-selling {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -411,11 +425,18 @@
     color: white;
     padding-bottom: 10px;
 }
+.font-edit > a:hover {
+    color: #40E0D0;
+}
 
 .font-def {
     color: white;
     padding-bottom: 10px;
     font-family: var(--font1);
+    cursor: pointer;
+}
+.font-def:hover {
+    color: #40E0D0;
 }
 
 .redes-container {
