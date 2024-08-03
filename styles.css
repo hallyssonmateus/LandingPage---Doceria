@@ -41,6 +41,7 @@
 .bar-pesqui {
     width: 100%;
     box-sizing: border-box;
+    display: block;
 }
 
 .bar-design {
@@ -54,6 +55,7 @@
     display: flex;
     align-items: center;
     padding-left: 50%;
+    display: block;
 }
 
 .login-def > h3 > a {
@@ -537,6 +539,80 @@
 
 @media (max-width: 600px) {
     /* Estilos para telas de celulares */
+    .contain-header1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 150px;
+        background-color: var(--corNav);
+    }
+    .geds-logo img {
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+    .bar-pesqui {
+        display: none;
+    }
+    .login-def {
+        display: none;
+    }
+
+    .contain-header2 {
+        border: 3px solid whitesmoke;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        background-color: var(--corNav);
+        position: relative;
+        /* padding: 0 20px; */
+    }
+    #menu-button {
+        color: white;
+        font-size: 20px;
+        font-family: var(--font1);
+        background: none;
+        border: none;
+        cursor: pointer;
+        /* color: var(--cor2); */
+    }
+    .nav-contain {
+        display: none;
+        flex-direction: column; /* Alinhar os itens em linha */
+        flex-wrap: wrap; /* Permitir quebra de linha se necessário */
+        gap: 10px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+    
+    .nav-design {
+        border: 3px solid whitesmoke;
+        background-color: var(--corNav);
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+    
+    .nav-design li {
+        margin: 5px;
+    }
+    #menu-button {
+        display: block; /* Mostrar o botão */
+    }
+    
+    .nav-design a {
+        text-decoration: none;
+        color: var(--cor2); /* Cor do texto do menu */
+    }
     .our-products {
         display: flex;
         flex-direction: column;
