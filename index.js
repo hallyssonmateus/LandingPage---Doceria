@@ -4,7 +4,7 @@ document.getElementById('menu-button').addEventListener('click', function() {
     
     if (navContain.style.display === 'flex') {
         navContain.style.display = 'none';
-        button.textContent = 'v'; // Mude o texto do botão de volta
+        button.textContent = 'Menu'; // Mude o texto do botão de volta
     } else {
         navContain.style.display = 'flex';
         button.textContent = '^'; // Mude o texto do botão para indicar que pode ser fechado
